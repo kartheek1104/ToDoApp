@@ -15,6 +15,7 @@ A simple To-Do List application built using Java and Swing. This project demonst
 - IntelliJ IDEA Community Edition or Eclipse (recommended)
 
 ## 📦 How to Run
+```bash
 
 javac ToDoApp.java
 java ToDoApp
