@@ -36,16 +36,6 @@ javac ToDoApp.java Task.java TaskRenderer.java
 java ToDoApp
 ```
 
-## Project Structure
-
-All code is contained in a single file:
-
-```
-ToDoApp.java
-```
-
-There is no external dependency required. All functionality is implemented using core Java libraries.
-
 ## Optional Notes
 
 - If you previously used an external library (e.g., Natty) for date parsing, this version does not require it.
