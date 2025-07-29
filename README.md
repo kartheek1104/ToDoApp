@@ -2,20 +2,31 @@
 
 A simple yet feature-rich To-Do List application built using Java and Swing. This project demonstrates the use of core Swing components for building desktop applications and supports flexible input handling and persistent task management.
 
-## 🚀 Features
+## Features
 
-- Add tasks to your to-do list
-- Delete selected tasks
-- Simple and clean user interface
+- Add tasks with optional category and due date
+  - Supports free-form due date input such as:
+    - "today"
+    - "tomorrow"
+    - "next Monday"
+    - "24th August"
+    - or any custom text
+- Mark tasks as completed
+- Delete one or multiple selected tasks
+- Export tasks to a text file
+- Clean and scrollable user interface with task preview
+- Persist tasks locally using a text file (tasks are saved between sessions)
+- Supports custom categories for organizing tasks
+- Dynamic task count: shows total and completed tasks
+- Sorts tasks by creation order
 
-## 🛠 Tools & Technologies
+## How to Run
 
-- Java (JDK 8 or higher)
-- Java Swing (built-in)
-- IntelliJ IDEA Community Edition or Eclipse (recommended)
+Ensure that you have Java (JDK 8 or higher) installed.
 
-## 📦 How to Run
+### Compile
 
+```bash
 javac ToDoApp.java
 ```
 
@@ -23,5 +34,23 @@ javac ToDoApp.java
 
 ```bash
 java ToDoApp
+```
+
+## Project Structure
+
+All code is contained in a single file:
 
 ```
+ToDoApp.java
+```
+
+There is no external dependency required. All functionality is implemented using core Java libraries.
+
+## Optional Notes
+
+- If you previously used an external library (e.g., Natty) for date parsing, this version does not require it.
+- Task data is stored in `tasks.txt` in the same directory as the application.
+
+## License
+
+This project is open-source and free to use for educational and personal projects.
