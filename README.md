@@ -41,6 +41,3 @@ java ToDoApp
 - If you previously used an external library (e.g., Natty) for date parsing, this version does not require it.
 - Task data is stored in `tasks.txt` in the same directory as the application.
 
-## License
-
-This project is open-source and free to use for educational and personal projects.
