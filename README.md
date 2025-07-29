@@ -27,7 +27,7 @@ Ensure that you have Java (JDK 8 or higher) installed.
 ### Compile
 
 ```bash
-javac ToDoApp.java
+javac ToDoApp.java Task.java TaskRenderer.java
 ```
 
 ### Run
